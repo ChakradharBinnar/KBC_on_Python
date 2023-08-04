@@ -46,11 +46,11 @@ for i in range(0, len(Questions)):
         print("Oops ! Wrong answer")
 
         if (i == 0):
-            print("You won 0 Rs only.")
+            print("You will get only 0 Rs.")
 
         elif (i > 0 and i <= 3):
-            print("You won 3000 Rs only.")
+            print("You will get only 3000 Rs.")
 
         elif (i < 3 and i <= 6):
-            print("You won 10000 Rs only.")
+            print("You will get only 10000 Rs.")
         break
